@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body{
+  background-color:#DBEFED;
+  text-align:center;
+}
+
+h1{
+  margin-top:80px;
+  color:#EF4423;
+  font-size:3.2em;
+  font-family:"Lobster";
+}
+
+h3 {
+  margin:0;
+  padding:0;
+}
+
+
+input[type="text"]{
+  width:130px;
+  border-radius:5px;
+  padding:10px;
+  height:40px;
+  margin-top:30px;
+}
+
+input[type="text"]:focus{
+  width:250px;
+}
+
+#search {
+  width:160px;
+}
+
+#search path {
+  stroke:#b40000;
+}
+
+#dice {
+  width:150px;
+  display:block;
+  margin:50px auto;
+
+}
+
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 15s linear infinite;
+}
+
+.resultField {
+  background:#fff;
+  color:#777;
+  border:1px #777 solid;
+  border-radius:10px;
+  width:60%;
+  margin:0 auto;
+  margin-top:20px;
+  padding:30px 26px;
+  text-align:left;
+}
+
+footer {
+  margin-top:50px;
+  margin-bottom:0;
+  color:#ef4423;
+  padding: 20px;
+}
